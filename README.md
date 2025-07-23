@@ -7,7 +7,8 @@ https://github.com/devrishal/use-case-tutorial/blob/master/jpa-specification/Wir
 
 https://www.youtube.com/watch?v=W6wiTGYkCbo
 
-To note: does not work with latest springboot version
+To note: does not work with latest springboot version,
+correction on 23/07/2025: 3.5.3 is working
 (Customer_ was not created and then you cannot import it)
 The RestController has not the name Controller in it
 
