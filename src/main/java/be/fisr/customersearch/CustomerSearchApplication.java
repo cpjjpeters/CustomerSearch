@@ -15,6 +15,7 @@ public class CustomerSearchApplication {
         ApplicationContext context = SpringApplication.run(CustomerSearchApplication.class, args);
         var service = context.getBean(DocumentService.class);
         service.fetchDocuments();
+        service.fetchDocumentsByCriteria();
     }
 
 }

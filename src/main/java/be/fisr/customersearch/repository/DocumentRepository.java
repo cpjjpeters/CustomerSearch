@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 import java.util.List;
 
 /* carlpeters created on 24/07/2025 inside the package - be.fisr.customersearch.repository */
-public interface DocumentRepository extends JpaRepository<DocumentJpaEntity, Long> {
+public interface DocumentRepository extends JpaRepository<DocumentJpaEntity, Long>, DocumentCriteriaRepository {
 //    List<DocumentJpaEntity> findByName(String name);
 //    List<DocumentJpaEntity> findByNameContains(String name);
 //    List<DocumentJpaEntity>  findByNameEndingWithIgnoreCase(String name);
